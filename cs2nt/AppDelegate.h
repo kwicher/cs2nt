@@ -7,9 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
+#import "AnimationWindows.h"
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+    AnimationFlipWindow *flipp;
+}
+-(IBAction)flip2help:(id)sender;
+-(IBAction)flip2main:(id)sender;
 @property (assign) IBOutlet NSWindow *window;
-
+@property (assign) IBOutlet NSWindow *info_window;
 @end

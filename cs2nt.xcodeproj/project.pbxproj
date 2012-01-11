@@ -13,6 +13,13 @@
 		D51B746F14B7566F00B02721 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D51B746D14B7566F00B02721 /* Credits.rtf */; };
 		D51B747214B7566F00B02721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B747114B7566F00B02721 /* AppDelegate.m */; };
 		D51B747514B7566F00B02721 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D51B747314B7566F00B02721 /* MainMenu.xib */; };
+		D51B747D14B7593200B02721 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = D51B747C14B7593200B02721 /* Converter.m */; };
+		D5206D6A14BBC16D000C93FD /* cs2nt.png in Resources */ = {isa = PBXBuildFile; fileRef = D5206D6814BBC16D000C93FD /* cs2nt.png */; };
+		D5206D6B14BBC16D000C93FD /* nt2cs.png in Resources */ = {isa = PBXBuildFile; fileRef = D5206D6914BBC16D000C93FD /* nt2cs.png */; };
+		D56F5F2614BC9AB700DE733F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56F5F2514BC9AB700DE733F /* QuartzCore.framework */; };
+		D56F5F2814BC9F7F00DE733F /* colorspace.png in Resources */ = {isa = PBXBuildFile; fileRef = D56F5F2714BC9F7F00DE733F /* colorspace.png */; };
+		D5B0AAE314BCF34E006FD718 /* AnimationWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B0AAE214BCF34E006FD718 /* AnimationWindows.m */; };
+		D5B0AAE514BCFA60006FD718 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D5B0AAE414BCFA60006FD718 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +28,24 @@
 		D51B746114B7566F00B02721 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D51B746214B7566F00B02721 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D51B746314B7566F00B02721 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D51B746614B7566F00B02721 /* cs2nt-Info.plist */ = {isa = PBXFileReference; path = "cs2nt-Info.plist"; sourceTree = "<group>"; };
+		D51B746614B7566F00B02721 /* cs2nt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cs2nt-Info.plist"; sourceTree = "<group>"; };
 		D51B746814B7566F00B02721 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D51B746A14B7566F00B02721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D51B746C14B7566F00B02721 /* cs2nt-Prefix.pch */ = {isa = PBXFileReference; path = "cs2nt-Prefix.pch"; sourceTree = "<group>"; };
+		D51B746C14B7566F00B02721 /* cs2nt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cs2nt-Prefix.pch"; sourceTree = "<group>"; };
 		D51B746E14B7566F00B02721 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D51B747014B7566F00B02721 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D51B747014B7566F00B02721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D51B747114B7566F00B02721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D51B747414B7566F00B02721 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D51B747B14B7593200B02721 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		D51B747C14B7593200B02721 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
+		D5206D6814BBC16D000C93FD /* cs2nt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cs2nt.png; sourceTree = "<group>"; };
+		D5206D6914BBC16D000C93FD /* nt2cs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nt2cs.png; sourceTree = "<group>"; };
+		D56F5F2514BC9AB700DE733F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D56F5F2714BC9F7F00DE733F /* colorspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colorspace.png; path = ../../../Desktop/colorspace.png; sourceTree = "<group>"; };
+		D5B0AAE114BCF33B006FD718 /* AnimationWindows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationWindows.h; sourceTree = "<group>"; };
+		D5B0AAE214BCF34E006FD718 /* AnimationWindows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationWindows.m; sourceTree = "<group>"; };
+		D5B0AAE414BCFA60006FD718 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		D5B0AAE614BD082C006FD718 /* cs2nt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = cs2nt.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56F5F2614BC9AB700DE733F /* QuartzCore.framework in Frameworks */,
 				D51B745F14B7566F00B02721 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +64,8 @@
 		D51B744F14B7566F00B02721 = {
 			isa = PBXGroup;
 			children = (
+				D5B0AAE414BCFA60006FD718 /* icon.icns */,
+				D56F5F2714BC9F7F00DE733F /* colorspace.png */,
 				D51B746414B7566F00B02721 /* cs2nt */,
 				D51B745D14B7566F00B02721 /* Frameworks */,
 				D51B745B14B7566F00B02721 /* Products */,
@@ -72,6 +92,7 @@
 		D51B746014B7566F00B02721 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D56F5F2514BC9AB700DE733F /* QuartzCore.framework */,
 				D51B746114B7566F00B02721 /* AppKit.framework */,
 				D51B746214B7566F00B02721 /* CoreData.framework */,
 				D51B746314B7566F00B02721 /* Foundation.framework */,
@@ -82,8 +103,15 @@
 		D51B746414B7566F00B02721 /* cs2nt */ = {
 			isa = PBXGroup;
 			children = (
+				D5B0AAE614BD082C006FD718 /* cs2nt.entitlements */,
+				D5B0AAE214BCF34E006FD718 /* AnimationWindows.m */,
+				D5B0AAE114BCF33B006FD718 /* AnimationWindows.h */,
+				D5206D6814BBC16D000C93FD /* cs2nt.png */,
+				D5206D6914BBC16D000C93FD /* nt2cs.png */,
 				D51B747014B7566F00B02721 /* AppDelegate.h */,
 				D51B747114B7566F00B02721 /* AppDelegate.m */,
+				D51B747B14B7593200B02721 /* Converter.h */,
+				D51B747C14B7593200B02721 /* Converter.m */,
 				D51B747314B7566F00B02721 /* MainMenu.xib */,
 				D51B746514B7566F00B02721 /* Supporting Files */,
 			);
@@ -156,6 +184,10 @@
 				D51B746914B7566F00B02721 /* InfoPlist.strings in Resources */,
 				D51B746F14B7566F00B02721 /* Credits.rtf in Resources */,
 				D51B747514B7566F00B02721 /* MainMenu.xib in Resources */,
+				D5206D6A14BBC16D000C93FD /* cs2nt.png in Resources */,
+				D5206D6B14BBC16D000C93FD /* nt2cs.png in Resources */,
+				D56F5F2814BC9F7F00DE733F /* colorspace.png in Resources */,
+				D5B0AAE514BCFA60006FD718 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +200,8 @@
 			files = (
 				D51B746B14B7566F00B02721 /* main.m in Sources */,
 				D51B747214B7566F00B02721 /* AppDelegate.m in Sources */,
+				D51B747D14B7593200B02721 /* Converter.m in Sources */,
+				D5B0AAE314BCF34E006FD718 /* AnimationWindows.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +241,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -221,7 +256,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -241,7 +276,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				"MACOSX_DEPLOYMENT_TARGET[arch=*]" = 10.4;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -249,6 +286,8 @@
 		D51B747914B7566F00B02721 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = cs2nt/cs2nt.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cs2nt/cs2nt-Prefix.pch";
 				INFOPLIST_FILE = "cs2nt/cs2nt-Info.plist";
@@ -260,10 +299,14 @@
 		D51B747A14B7566F00B02721 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = cs2nt/cs2nt.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cs2nt/cs2nt-Prefix.pch";
 				INFOPLIST_FILE = "cs2nt/cs2nt-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SDKROOT[arch=*]" = macosx10.6;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,6 +330,7 @@
 				D51B747A14B7566F00B02721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,6 +11,7 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize info_window;
 
 - (void)dealloc
 {
@@ -22,4 +23,18 @@
     // Insert code here to initialize your application
 }
 
+-(IBAction)flip2help:(id)sender
+{
+    flipp=[[AnimationFlipWindow alloc] init];
+
+    [flipp flip:_window toBack:info_window];
+    [flipp release];
+   }
+-(IBAction)flip2main:(id)sender
+{
+    flipp=[[AnimationFlipWindow alloc] init];
+    
+    [flipp flip:info_window toBack:_window];
+    [flipp release];
+}
 @end
